@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.HomePageContainer{
+  display: flex;
+  height: 200px;
+  text-align: right;
+}
+.mainContent{
+  background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-bottom: 60px;
+}
+.drop-menus{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+
+}
+.uniqueBar{
+  font-size: 18px;
+  
+}
+.search-inp{
+  width: 500px;
+  height: 40px;
+  margin: 40px;
+}
+
+
+.elecCo{
+  width: 280px;
+  height: 450px;
+}
+.carousel{
+  position: relative;
+    left: 400px;
+    top: 140px;
+  width: 100px;
+}
+.detailModal{
+  margin: 20% auto !important;
+}
+.sliderText{
+  color: white;
+  font-size: 20px;
+}
+.sliderSubtitle{
+  color: white;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
